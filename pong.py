@@ -57,7 +57,7 @@ def draw():
 
     turtle.up()
     turtle.goto(x, y)
-    turtle.dot(10)
+    turtle.dot(10,'red')
     turtle.update()
 
     if y < -200 or y > 200:
